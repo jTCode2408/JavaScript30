@@ -1,7 +1,10 @@
 html {
   font-size: 10px;
-  background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
-  background-size: cover;
+  background-image: url(./images/BC.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: black;
 }
 
 body,html {
@@ -19,7 +22,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid grey;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
